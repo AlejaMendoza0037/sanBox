@@ -20,12 +20,16 @@ describe(
         )
             //despues que se termino la prueba
         afterAll(
-            app.close()
+            ()=>{
+                app.close()
+
+            }
+           
         )
         //declarar la prueba
         //descripcion de la pruieba
         test (            
-            'Debe devolver un mensaje'
+            'Debe devolver un mensaje',
             async ()=>{
                 //peticion 
                  const res=await request(app.app).get('/')

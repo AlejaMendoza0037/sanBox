@@ -41,7 +41,8 @@ class App{
 		this.app.get(
 			'/',//url
 			(req:Request, res:Response)=>{
-				res.send('Bienvenidos a la IPS")//send enviar')
+				//send enviar
+				res.send('Bienvenidos a la IPS') 
 			}
 		)
 
