@@ -2,6 +2,7 @@
 import swaggerJSDoc from "swagger-jsdoc";
 
 export const swaggerOptions={//optiones de comfiguracion de swagger
+    
     definition:{//llave de definicion
         openapi:"3.0.0",
         info:{
@@ -22,7 +23,7 @@ export const swaggerOptions={//optiones de comfiguracion de swagger
 
     },
     apis:[//desde donde voy a tomar la imformacion donde va a estar swagger
-        "src/index.ts ", "/swagger/*swagger.ts"
+        "src/index.ts ", "./swagger/*.swagger.ts"
 
    ]
 
