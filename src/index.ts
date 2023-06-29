@@ -1,4 +1,4 @@
-import App from './Router'
+import App from './App'
 
 
 

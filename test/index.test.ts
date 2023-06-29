@@ -1,6 +1,6 @@
 //1. importar supertest las bibliotecas
 import  request  from 'supertest'
-import App from './Router'
+import App from '../src/App'
 
 
 //resglas de prueba
